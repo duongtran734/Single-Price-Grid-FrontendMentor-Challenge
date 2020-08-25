@@ -1,4 +1,71 @@
-body {
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  background-color: hsl(204, 43%, 93%);
+
+  
+}
+
+main {
+  background-color:white;
+  color: white;
+  min-width: 675px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 10px rgba(112, 111, 111, 0.05);
+  overflow: hidden;
+
+}
+section {
+  padding: 41px 45px;
+}
+
+
+section.subscription {
+  background-color: hsl(179, 62%, 43%);
+}
+
+section.whyus {
+  background-color:hsl(179, 62%, 68%);
+}
+
+.community h2 {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 25px; /* 35px total bottom*/
+}
+
+.community h3 {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 11px; /*20px total bottom */
+}
+.community p {
+  color: hsl(218, 22%, 67%);
+  margin-bottom: 6px; 
+}
+
+
+
+.row-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+button {
+  font-family: 'Karla', sans-serif;
+  background-color: hsl(71, 73%, 54%);
+  width: 100%;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  box-shadow: none;
 }
